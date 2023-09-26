@@ -11,7 +11,7 @@ const Header = ({ navigations }) => {
 
   return (
     <header className="w-full z-50 fixed flex justify-center items-center">
-      <nav className="w-full bg-white z-40 p-4 flex justify-between items-center">
+      <nav className="w-full h-20 bg-white z-40 p-4 flex justify-between items-center">
         <div className="flex justify-center items-center gap-2">
           <a
             href="/"
@@ -60,7 +60,6 @@ const Header = ({ navigations }) => {
           <MoonIcon className="w-5" />
         </div>
       </nav>
-
       <nav
         className={`absolute rounded-b-3xl z-30 w-full flex justify-center items-center ${
           showMobileOption ? "top-14" : "top-[-100px]"

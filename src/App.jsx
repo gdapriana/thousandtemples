@@ -10,6 +10,7 @@ import destinations from "./data/destinations.json";
 import activities from "./data/activities.json";
 import categories from "./data/categories.json";
 import navigations from "./data/navigations.json";
+import Footer from "./components/globals/Footer.jsx";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
           />
         </Routes>
       </Router>
+      <Footer navigations={navigations} />
     </>
   );
 };
