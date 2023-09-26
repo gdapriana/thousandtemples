@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "650726d4d303c80689c7b21f"
+  },
+  "title": "Yoga",
+  "slug": "yoga",
+  "description": "Bali is a great place to do yoga. There are many yoga studios and retreats in Bali that offer classes for all levels. Visitors can practice yoga in a traditional Balinese setting or in a more modern studio.",
+  "createdAt": {
+    "$date": "2023-09-18T00:12:46.000Z"
+  },
+  "viewCount": 2000,
+  "likeCount": 1203,
+  "updatedAt": {
+    "$date": "2023-09-18T00:12:46.000Z"
+  },
+  "__v": 0
+},
+  {
+    "_id": {
+      "$oid": "650726dfd303c80689c7b221"
+    },
+    "title": "Cooking class",
+    "slug": "cooking-class",
+    "description": "Bali is home to a rich and diverse culinary tradition. Visitors can learn how to cook traditional Balinese dishes at one of the many cooking classes in Bali. Classes are available for all levels, from beginners to experienced cooks.",
+    "viewCount": 218391,
+    "likeCount": 21381,
+    "createdAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650726f5d303c80689c7b223"
+    },
+    "title": "Go on a spa day",
+    "slug": "go-on-a-spa-day",
+    "description": "Bali is known for its luxurious spas. Visitors can relax and pamper themselves at one of the many spas in Bali. Spas offer a variety of treatments, including massages, facials, and body treatments.",
+    "viewCount": 9328,
+    "likeCount": 298,
+    "createdAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65072708d303c80689c7b225"
+    },
+    "title": "Go on a nature hike",
+    "slug": "go-on-a-nature-hike",
+    "description": "Bali has a variety of stunning natural landscapes, including forests, waterfalls, and mountains. Visitors can go on a nature hike to explore these landscapes and learn about the local flora and fauna.",
+    "viewCount": 1238,
+    "likeCount": 2139,
+    "createdAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65072750d303c80689c7b227"
+    },
+    "title": "Attend a cultural performance",
+    "slug": "attend-a-cultural-performance",
+    "description": "Bali is home to a vibrant cultural scene. Visitors can attend a cultural performance to experience traditional Balinese dance, music, and theater.",
+    "viewCount": 213721,
+    "likeCount": 2392,
+    "createdAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "__v": 0
+  }]

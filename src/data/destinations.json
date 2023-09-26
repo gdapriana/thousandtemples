@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "65007122b9bfee81838cb452"
+  },
+  "title": "Tanah Lot Temple",
+  "slug": "tanah-lot-temple",
+  "description": "A temple located on a rocky outcrop by the sea, offering spectacular sunset views.",
+  "category": "Sacred Place",
+  "location": "Tabanan",
+  "likeCount": 249,
+  "viewCount": 3000,
+  "map": [
+    -8.621152100522897,
+    115.08680250004782
+  ],
+  "price": 30000,
+  "__v": 0
+},
+  {
+    "_id": {
+      "$oid": "65007136b9bfee81838cb454"
+    },
+    "title": "Kuta Beach",
+    "slug": "kuta-beach",
+    "description": "A beach famous for its suitable waves for surfing.",
+    "category": "Beach",
+    "location": "Kuta, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.712617317303236,
+      115.1668455121354
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007146b9bfee81838cb456"
+    },
+    "title": "Ubud Monkey Forest",
+    "slug": "ubud-monkey-forest",
+    "description": "A forest in Ubud inhabited by hundreds of long-tailed monkeys.",
+    "category": "Nature Tourism",
+    "location": "Ubud, Gianyar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.519171084205922,
+      115.26062989853408
+    ],
+    "price": 50000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007153b9bfee81838cb458"
+    },
+    "title": "Tegallalang Rice Terraces",
+    "slug": "tegallalang-rice-terraces",
+    "description": "Beautiful terraced rice fields in the Tegallalang area.",
+    "category": "Nature Tourism",
+    "location": "Tegallalang, Gianyar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.431605054154746,
+      115.27933518579829
+    ],
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007160b9bfee81838cb45a"
+    },
+    "title": "Agung Rai Art Museum",
+    "slug": "agung-rai-art-museum",
+    "description": "An art museum showcasing the works of Balinese and international artists.",
+    "category": "Museum",
+    "location": "Ubud, Gianyar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.522611313395622,
+      115.26328852691739
+    ],
+    "price": 50000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6500716cb9bfee81838cb45c"
+    },
+    "title": "Sanur Beach",
+    "slug": "sanur-beach",
+    "description": "A tranquil beach with stunning sunrise views.",
+    "category": "Beach",
+    "location": "Sanur, Denpasar",
+    "likeCount": 249,
+    "viewCount": 2000,
+    "map": [
+      -8.707168096949449,
+      115.2626218517922
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007177b9bfee81838cb45e"
+    },
+    "title": "Goa Gajah",
+    "slug": "goa-gajah",
+    "description": "An ancient cave with intriguing stone carvings.",
+    "category": "Historical Site",
+    "location": "Bedulu, Gianyar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.523285467100607,
+      115.28714272876691
+    ],
+    "price": 15000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007183b9bfee81838cb460"
+    },
+    "title": "Seminyak Beach",
+    "slug": "seminyak-beach",
+    "description": "A popular beach with trendy restaurants and bars.",
+    "category": "Beach",
+    "location": "Seminyak, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.68207577637126,
+      115.15198229844673
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65007192b9bfee81838cb462"
+    },
+    "title": "Taman Ayun Temple",
+    "slug": "taman-ayun-temple",
+    "description": "A temple famous for its beautiful gardens and water features.",
+    "category": "Sacred Place",
+    "location": "Mengwi, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.541441305590194,
+      115.17261202736543
+    ],
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6500719eb9bfee81838cb464"
+    },
+    "title": "Balangan Beach",
+    "slug": "balangan-beach",
+    "description": "A hidden and beautiful beach with great surfing waves.",
+    "category": "Beach",
+    "location": "Balangan, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.791015676856833,
+      115.12431837393704
+    ],
+    "price": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071abb9bfee81838cb466"
+    },
+    "title": "Puri Saren Agung (Puri Ubud)",
+    "slug": "puri-saren-agung",
+    "description": "A royal palace located in the center of Ubud.",
+    "category": "Historical Site",
+    "location": "Ubud, Gianyar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.5066238863125,
+      115.26262563911132
+    ],
+    "price": 30000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071ccb9bfee81838cb468"
+    },
+    "title": "Dreamland Beach",
+    "slug": "dreamland-beach",
+    "description": "A beach with stunning cliff views.",
+    "category": "Beach",
+    "location": "Pecatu, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.79922375937999,
+      115.11775517019205
+    ],
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071dab9bfee81838cb46a"
+    },
+    "title": "Le Mayeur Museum",
+    "slug": "le-mayeur-museum",
+    "description": "A museum showcasing the works of Dutch artist Adrien-Jean Le Mayeur and his wife, Ni Pollok.",
+    "category": "Museum",
+    "location": "Sanur, Denpasar",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.674781827537867,
+      115.26369915686966
+    ],
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071e4b9bfee81838cb46c"
+    },
+    "title": "Uluwatu Temple",
+    "slug": "uluwatu-temple",
+    "description": "A temple perched on a cliff with spectacular ocean views.",
+    "category": "Sacred Place",
+    "location": "Uluwatu, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.828854609209174,
+      115.0850032899929
+    ],
+    "price": 30000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650071f1b9bfee81838cb46e"
+    },
+    "title": "Pandawa Beach",
+    "slug": "pandawa-beach",
+    "description": "A beach with beautiful view white sand and towering cliffs.",
+    "category": "Beach",
+    "location": "Kutuh, Badung",
+    "likeCount": 249,
+    "viewCount": 100,
+    "map": [
+      -8.845323167825564,
+      115.18654722554231
+    ],
+    "price": 20000,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6502b4a44090e057a59bd8df"
+    },
+    "title": "Lovina Beach",
+    "slug": "lovina-beach",
+    "description": "Lovina Beach is a coastal area on the northwestern side of the island of Bali",
+    "category": "Beach",
+    "location": "Anturan, Buleleng",
+    "likeCount": 300,
+    "viewCount": 400,
+    "map": [
+      -8.160141299890336,
+      115.0298721709534
+    ],
+    "price": 0,
+    "__v": 0
+  }]

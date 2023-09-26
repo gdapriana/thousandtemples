@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "6500769a3b58badc388b21ba"
+  },
+  "title": "Beach",
+  "slug": "beach",
+  "description": "",
+  "__v": 0
+},
+  {
+    "_id": {
+      "$oid": "650076a93b58badc388b21bc"
+    },
+    "title": "Temple",
+    "slug": "temple",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076b03b58badc388b21be"
+    },
+    "title": "Nature",
+    "slug": "nature",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076b83b58badc388b21c0"
+    },
+    "title": "Mountain",
+    "slug": "mountain",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076c13b58badc388b21c2"
+    },
+    "title": "Hill",
+    "slug": "hill",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076ca3b58badc388b21c4"
+    },
+    "title": "Cliff",
+    "slug": "cliff",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076d33b58badc388b21c6"
+    },
+    "title": "Building",
+    "slug": "building",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076de3b58badc388b21c8"
+    },
+    "title": "River",
+    "slug": "river",
+    "description": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650076e73b58badc388b21ca"
+    },
+    "title": "Lake",
+    "slug": "lake",
+    "description": "",
+    "__v": 0
+  }]
