@@ -8,7 +8,8 @@ import Header from "./components/globals/Header.jsx";
 // TODO: import data
 import destinations from "./data/destinations.json";
 import activities from "./data/activities.json";
-import categories from "./data/categories.json";
+import activityCategories from "./data/activitycategories.json";
+import destinationCategories from "./data/destinationcategories.json";
 import navigations from "./data/navigations.json";
 import Footer from "./components/globals/Footer.jsx";
 
@@ -21,16 +22,29 @@ const App = () => {
           <Route
             path={"/"}
             element={
-              <HomePage destinations={destinations} categories={categories} />
+              <HomePage
+                destinations={destinations}
+                categories={destinationCategories}
+              />
             }
           />
           <Route
             path={"/destinations"}
-            element={<DestinationPage destinations={destinations} />}
+            element={
+              <DestinationPage
+                destinations={destinations}
+                destinationCategories={destinationCategories}
+              />
+            }
           />
           <Route
             path={"/activities"}
-            element={<ActivityPage activities={activities} />}
+            element={
+              <ActivityPage
+                activities={activities}
+                activityCategories={activityCategories}
+              />
+            }
           />
           <Route
             path={"*"}
