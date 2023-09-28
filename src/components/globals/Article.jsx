@@ -3,16 +3,22 @@ import {
   BookmarkIcon,
   MinusCircleIcon,
   EllipsisHorizontalIcon,
+  EyeIcon,
+  HandThumbUpIcon,
+  MapPinIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
 } from "@heroicons/react/24/outline";
 
 const Article = ({ data, categories }) => {
+  const getData = data.slice(0, 4);
   return (
     <article className="w-full flex justify-center items-center">
       <div className="w-full flex flex-col py-10 gap-16 lg:gap-0 lg:py-20 lg:flex-row-reverse lg:items-start max-w-7xl">
         {/*categories*/}
         <RecommendedTopic categories={categories} />
         {/*  article*/}
-        <ForYou data={data} />
+        <ForYou data={getData} />
       </div>
     </article>
   );
@@ -27,6 +33,7 @@ const ForYou = ({ data }) => {
           return <ArticleCard key={idx} data={item} />;
         })}
       </div>
+      <Pagination />
     </div>
   );
 };
@@ -73,6 +80,14 @@ const ArticleCard = ({ data }) => {
           <p className="w-full text-neutral-600 text-sm lg:text-base leading-5 cutoff-text cutoff-text-2">
             {data.description}
           </p>
+          {Object.prototype.hasOwnProperty.call(data, "location") ? (
+            <div className="w-full flex justify-start my-3 items-center">
+              <MapPinIcon className="w-4 text-neutral-600" />
+              <span className="text-xs text-neutral-600">{data.location}</span>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
         <div
           className="w-24 aspect-square rounded-xl bg-cover"
@@ -89,15 +104,55 @@ const ArticleCard = ({ data }) => {
           >
             Category
           </a>
-          <span className="text-sm text-neutral-600">6 min read</span>
+          <span className="text-sm text-neutral-600 hidden sm:inline">
+            6 min read
+          </span>
         </div>
         <div className="flex justify-center items-center gap-2">
+          <div className="flex justify-center items-center gap-1 mx-2">
+            <EyeIcon className="w-5 text-neutral-600 cursor-pointer" />
+            <span className="text-neutral-600 lg:text-sm text-xs">
+              {data.viewCount}
+            </span>
+          </div>
+          <div className="flex justify-center items-center gap-1 mx-2">
+            <HandThumbUpIcon className="w-5 text-neutral-600 cursor-pointer" />
+            <span className="text-neutral-600 lg:text-sm text-xs">
+              {data.likeCount}
+            </span>
+          </div>
           <BookmarkIcon className="w-5 text-neutral-600 cursor-pointer" />
           <MinusCircleIcon className="w-5 text-neutral-600 cursor-pointer" />
           <EllipsisHorizontalIcon className="w-5 text-neutral-600 cursor-pointer" />
         </div>
       </footer>
     </article>
+  );
+};
+
+const Pagination = () => {
+  return (
+    <div className="w-full p-4 flex justify-end gap-5 items-center">
+      <div className="flex cursor-pointer gap-2 justify-center items-center">
+        <ChevronLeftIcon className="w-4" />
+        <span className="text-neutral-600 font-bold text-sm">Prev</span>
+      </div>
+      <div className="flex justify-center items-center gap-2">
+        <div className="bg-indigo-400 text-white text-sm w-6 aspect-square rounded-full flex justify-center items-center">
+          1
+        </div>
+        <div className="bg-neutral-200 text-neutral-600 text-sm w-6 aspect-square rounded-full flex justify-center items-center">
+          2
+        </div>
+        <div className="bg-neutral-200 text-neutral-600 text-sm w-6 aspect-square rounded-full flex justify-center items-center">
+          3
+        </div>
+      </div>
+      <div className="flex cursor-pointer gap-2 justify-center items-center">
+        <span className="text-neutral-600 font-bold text-sm">Prev</span>
+        <ChevronRightIcon className="w-4" />
+      </div>
+    </div>
   );
 };
 

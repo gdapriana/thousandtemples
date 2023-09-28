@@ -1,20 +1,21 @@
-[{
-  "_id": {
-    "$oid": "650726d4d303c80689c7b21f"
+[
+  {
+    "_id": {
+      "$oid": "650726d4d303c80689c7b21f"
+    },
+    "title": "Yoga",
+    "slug": "yoga",
+    "description": "Bali is a great place to do yoga. There are many yoga studios and retreats in Bali that offer classes for all levels. Visitors can practice yoga in a traditional Balinese setting or in a more modern studio.",
+    "createdAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "viewCount": 2000,
+    "likeCount": 1203,
+    "updatedAt": {
+      "$date": "2023-09-18T00:12:46.000Z"
+    },
+    "__v": 0
   },
-  "title": "Yoga",
-  "slug": "yoga",
-  "description": "Bali is a great place to do yoga. There are many yoga studios and retreats in Bali that offer classes for all levels. Visitors can practice yoga in a traditional Balinese setting or in a more modern studio.",
-  "createdAt": {
-    "$date": "2023-09-18T00:12:46.000Z"
-  },
-  "viewCount": 2000,
-  "likeCount": 1203,
-  "updatedAt": {
-    "$date": "2023-09-18T00:12:46.000Z"
-  },
-  "__v": 0
-},
   {
     "_id": {
       "$oid": "650726dfd303c80689c7b221"
@@ -82,4 +83,5 @@
       "$date": "2023-09-18T00:12:46.000Z"
     },
     "__v": 0
-  }]
+  }
+]
