@@ -5,9 +5,6 @@ import {
 } from "@heroicons/react/24/outline";
 import mesh from "../../assets/images/mesh.png";
 import temple from "../../assets/images/temple.png";
-import gsap from "gsap";
-import splitType from "https://cdn.skypack.dev/split-type@0.3.3";
-import { useLayoutEffect, useRef, useEffect } from "react";
 
 const metadata = {
   header: `Let's Enjoy Your Desired Trip in Bali With`,
@@ -16,21 +13,15 @@ const metadata = {
 };
 
 const Hero = () => {
-  const headerText = new splitType('h1.hero-header-text', {types: 'chars'}).chars
-  const headerRef = useRef();
-
-  useEffect(() => {
-   
-  }, [])
   return (
-    <main className="h-[600px] w-full flex justify-center items-center">
+    <main className="h-[700px] w-full flex justify-center items-center">
       <div
         className="w-full h-full lg:flex justify-center items-center px-12 pt-20 bg-cover max-w-7xl bg-red-200"
         style={{ backgroundImage: `url(${mesh})` }}
       >
         <div className="w-full lg:w-2/3 gap-2 h-full flex justify-center items-center flex-col">
           <header className="w-full">
-            <h1 ref={headerRef} className="text-neutral-600 hero-header-text leading-10 lg:text-4xl my-4 font-bold text-2xl">
+            <h1 className="text-neutral-600 hero-header-text leading-10 lg:text-4xl my-4 font-bold text-2xl">
               {metadata.header}{" "}
               <span className="text-indigo-400">
                 {import.meta.env.VITE_APP}
