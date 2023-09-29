@@ -11,7 +11,7 @@ const Header = ({ navigations }) => {
 
   return (
     <header className="w-full z-50 fixed flex justify-center items-center">
-      <nav className="w-full h-20 bg-white z-40 p-4 flex justify-between items-center">
+      <nav className="w-full h-20 z-40 p-4 flex justify-between items-center">
         <div className="flex justify-center items-center gap-2">
           <a
             href="/"
@@ -62,7 +62,7 @@ const Header = ({ navigations }) => {
       </nav>
       <nav
         className={`absolute rounded-b-3xl z-30 w-full flex justify-center items-center ${
-          showMobileOption ? "top-14" : "top-[-100px]"
+          showMobileOption ? "top-20" : "top-[-200px]"
         }  md:hidden bg-indigo-400`}
       >
         <ul className="flex flex-col justify-center items-center p-8 gap-2">

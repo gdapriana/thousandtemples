@@ -1,9 +1,7 @@
+import Hero from "../components/homepage/Hero";
+
 const HomePage = () => {
-  return (
-    <div className="h-64 bg-white flex items-center justify-center">
-      Homepage
-    </div>
-  );
+  return <Hero />;
 };
 
 export default HomePage;

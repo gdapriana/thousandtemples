@@ -49,7 +49,7 @@ const Slider = ({ data }) => {
 const HeroWrapper = ({ activeSlide }) => {
   return (
     <div className="flex-1 z-20 xl:max-w-3xl lg:items-start lg:h-full w-full flex flex-col justify-center items-center">
-      <h1 className="text-3xl drop-shadow-2xl max-w-lg m-4 text-center font-bold text-indigo-400">
+      <h1 className="text-3xl drop-shadow-2xl max-w-lg m-4 text-center font-bold text-white">
         {activeSlide.title}
       </h1>
       <p className="cutoff-text cutoff-text-2 lg:text-left mx-4 text-center text-white">
@@ -106,7 +106,9 @@ const Card = ({ data, setSlide }) => {
         }}
       ></div>
       <div className="flex flex-col w-full justify-center items-center cutoff-text cutoff-text-1">
-        <h3 className="text-lg m-2 font-bold text-neutral-600">{data.title}</h3>
+        <h3 className="text-lg m-2 font-bold text-center text-neutral-600">
+          {data.title}
+        </h3>
       </div>
     </article>
   );
