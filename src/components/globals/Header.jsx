@@ -4,13 +4,25 @@ import {
   MagnifyingGlassIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Header = ({ navigations }) => {
+  const myElementRef = useRef(null);
   const [showMobileOption, setShowMobileOption] = useState(false);
+  const [yScroll, setYScroll] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setYScroll(scrollY);
+    });
+  }, []);
 
   return (
-    <header className="w-full z-50 fixed flex justify-center items-center">
+    <header
+      className={`w-full z-50 ${
+        yScroll > 0 ? "bg-white border-b" : ""
+      } fixed flex justify-center items-center`}
+    >
       <nav className="w-full h-20 z-40 p-4 flex justify-between items-center">
         <div className="flex justify-center items-center gap-2">
           <a
