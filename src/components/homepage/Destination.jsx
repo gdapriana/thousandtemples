@@ -24,6 +24,12 @@ const Destination = ({ destinations }) => {
           subtitleClass={"text-center"}
         />
         <CardWrapper destinations={destinations} />
+        <a
+          className="w-full bg-indigo-400 sm:w-auto lg:text-lg lg:py-3 lg:px-4 text-center text-white font-bold py-2 px-3 rounded-full"
+          href="/destinations"
+        >
+          Explore More Destinations
+        </a>
       </div>
     </div>
   );
@@ -31,7 +37,7 @@ const Destination = ({ destinations }) => {
 
 const CardWrapper = ({ destinations }) => {
   return (
-    <div className="w-full gap-4 lg:gap-8 grid md:grid-cols-2">
+    <div className="w-full gap-2 lg:gap-4 grid lg:grid-cols-2">
       <MainCard destinations={destinations} />
       {destinations.slice(1, 5).map((item, idx) => {
         return <MiniCard key={idx} destination={item} />;
