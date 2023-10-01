@@ -22,7 +22,7 @@ const Activity = ({ activities }) => {
           <Button text={"Explore more Activities"} path={"/activities"} />
         </div>
         <div className="lg:w-2/3">
-          <ActivityCardMobile />
+          <ActivityCardMobile activities={activities} />
           <ActivityCardDesktop activities={activities} />
         </div>
       </div>
@@ -30,8 +30,32 @@ const Activity = ({ activities }) => {
   );
 };
 
-const ActivityCardMobile = () => {
-  return <div className="md:hidden"></div>;
+const ActivityCardMobile = ({ activities }) => {
+  return (
+    <div className="md:hidden rounded-xl hide-scrollbar w-full whitespace-nowrap overflow-auto">
+      {activities.slice(0, 4).map((item, idx) => {
+        return (
+          <div
+            key={idx}
+            style={{
+              backgroundImage: `url(https://source.unsplash.com/random/1920x1080/?${item.slug})`,
+            }}
+            className="w-44 inline-flex bg-cover overflow-hidden bg-center aspect-[2/3] mr-2 rounded-xl bg-red-400"
+          >
+            <div className="w-full p-4 h-full bg-black bg-opacity-40 flex gap-2 justify-end items-center flex-col">
+              <h1 className="text-white font-bold text-base">{item.title}</h1>
+              <a
+                href=""
+                className="text-sm text-white font-bold bg-indigo-400 py-1 px-2 rounded-full"
+              >
+                Explore
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 };
 
 const ActivityCardDesktop = ({ activities }) => {
