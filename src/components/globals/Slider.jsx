@@ -40,7 +40,7 @@ const Slider = ({ data }) => {
         <HeroWrapper activeSlide={activeSlide} />
         {/*prettier-ignore*/}
         <CardWrapper handleScrollOnClick={handleScrollOnClick} cardContainerRef={cardContainerRef} mostViewData={mostViewData} setActiveSlide={setActiveSlide} />
-        <div className="absolute blackGradient z-10 w-full h-full"></div>
+        <div className="absolute bg-black bg-opacity-50 z-10 w-full h-full"></div>
       </div>
     </main>
   );
