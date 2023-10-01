@@ -12,11 +12,8 @@ import activityCategories from "./data/activitycategories.json";
 import destinationCategories from "./data/destinationcategories.json";
 import navigations from "./data/navigations.json";
 import Footer from "./components/globals/Footer.jsx";
-import { useState, useEffect } from "react";
 
 const App = () => {
-  const [scrollY, setScrollY] = useState(0);
-
   return (
     <>
       <Header navigations={navigations} />
@@ -25,10 +22,7 @@ const App = () => {
           <Route
             path={"/"}
             element={
-              <HomePage
-                destinations={destinations}
-                categories={destinationCategories}
-              />
+              <HomePage destinations={destinations} activities={activities} />
             }
           />
           <Route

@@ -7,7 +7,6 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 const Header = ({ navigations }) => {
-  const myElementRef = useRef(null);
   const [showMobileOption, setShowMobileOption] = useState(false);
   const [yScroll, setYScroll] = useState(0);
 

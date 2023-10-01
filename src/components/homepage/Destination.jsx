@@ -6,6 +6,7 @@ import {
   HandThumbUpIcon,
   BanknotesIcon,
 } from "@heroicons/react/24/solid";
+import Button from "../globals/Button.jsx";
 
 const metadata = {
   title: "Popular Destinations",
@@ -24,12 +25,7 @@ const Destination = ({ destinations }) => {
           subtitleClass={"text-center"}
         />
         <CardWrapper destinations={destinations} />
-        <a
-          className="w-full bg-indigo-400 sm:w-auto lg:text-lg lg:py-3 lg:px-4 text-center text-white font-bold py-2 px-3 rounded-full"
-          href="/destinations"
-        >
-          Explore More Destinations
-        </a>
+        <Button text={"Explore more Destinations"} path={"/destinations"} />
       </div>
     </div>
   );
