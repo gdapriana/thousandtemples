@@ -23,7 +23,7 @@ const metadata = {
 
 const Footer = ({ navigations }) => {
   return (
-    <footer className="w-full bg-white border-t flex justify-center items-center">
+    <footer className="w-full mt-20 lg:mt-40 bg-white border-t flex justify-center items-center">
       <div className="w-full gap-8 flex flex-col">
         {/*  TOP */}
         <div className="w-full flex gap-5 flex-col lg:flex-row p-8 lg:p-16">
