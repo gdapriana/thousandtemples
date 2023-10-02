@@ -1,7 +1,9 @@
 import { useRef, useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import "../../css/slider.css";
-
+import instagramIcon from "../../assets/images/instagram.png";
+import whatsappIcon from "../../assets/images/whatsapp.png";
+import twitterIcon from "../../assets/images/twitter.png";
 const Slider = ({ data }) => {
   const mostViewData = data
     .sort((a, b) => b.viewCount - a.viewCount)
@@ -37,6 +39,7 @@ const Slider = ({ data }) => {
           backgroundImage: `url(https://source.unsplash.com/random/1920x1080/?${activeSlide.slug})`,
         }}
       >
+        <SocialSection />
         <HeroWrapper activeSlide={activeSlide} />
         {/*prettier-ignore*/}
         <CardWrapper handleScrollOnClick={handleScrollOnClick} cardContainerRef={cardContainerRef} mostViewData={mostViewData} setActiveSlide={setActiveSlide} />
@@ -79,8 +82,8 @@ const CardWrapper = ({
         ref={cardContainerRef}
         className="flex-1 hide-scrollbar overflow-x-scroll rounded-xl whitespace-nowrap"
       >
-        {mostViewData.map((item) => (
-          <Card key={item._id} data={item} setSlide={setActiveSlide} />
+        {mostViewData.map((item, idx) => (
+          <Card key={idx} data={item} setSlide={setActiveSlide} />
         ))}
       </div>
       <ChevronRightIcon
@@ -108,6 +111,23 @@ const Card = ({ data, setSlide }) => {
         </h3>
       </div>
     </article>
+  );
+};
+const SocialSection = () => {
+  return (
+    <div className="hidden lg:flex py-8 h-full gap-4 w-40 flex-col justify-center items-center z-20">
+      <div className="flex-1 border rounded-full"></div>
+      <a href="">
+        <img src={instagramIcon} width={28} alt="" />
+      </a>
+      <a href="">
+        <img src={whatsappIcon} width={28} alt="" />
+      </a>
+      <a href="">
+        <img src={twitterIcon} width={28} alt="" />
+      </a>
+      <div className="flex-1 border rounded-full"></div>
+    </div>
   );
 };
 export default Slider;

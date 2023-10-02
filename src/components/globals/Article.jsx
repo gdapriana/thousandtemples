@@ -16,8 +16,11 @@ const Article = ({ data, categories }) => {
     <article className="w-full flex justify-center items-center">
       <div className="w-full flex flex-col py-10 gap-16 lg:gap-0 lg:py-20 lg:flex-row-reverse lg:items-start max-w-7xl">
         {/*categories*/}
-        <RecommendedTopic categories={categories} />
+        <div className="w-full lg:w-1/3">
+          <RecommendedTopic categories={categories} />
+        </div>
         {/*  article*/}
+
         <ForYou data={getData} />
       </div>
     </article>
@@ -40,7 +43,7 @@ const ForYou = ({ data }) => {
 
 const RecommendedTopic = ({ categories }) => {
   return (
-    <div className="flex flex-col justify-center lg:items-start w-full lg:w-1/3 px-8 items-center gap-6">
+    <div className="flex flex-col justify-center lg:items-start w-full px-8 items-center gap-6">
       <h1 className="text-indigo-400 font-bold text-lg lg:text-xl">
         Recommended Topics
       </h1>
