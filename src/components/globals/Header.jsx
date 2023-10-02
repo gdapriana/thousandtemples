@@ -18,7 +18,7 @@ const Header = ({ navigations }) => {
 
   return (
     <header
-      className={`w-full z-50 ${
+      className={`w-full z-[999] ${
         yScroll > 0 ? "bg-white border-b" : ""
       } fixed flex justify-center items-center`}
     >

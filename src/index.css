@@ -12,7 +12,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: satoshi, sans-serif;
-   transition: all ease-in-out 0.3s;
+   /*transition: all ease-in-out 0.3s;*/
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

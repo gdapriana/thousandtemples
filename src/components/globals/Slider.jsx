@@ -45,7 +45,6 @@ const Slider = ({ data }) => {
     </main>
   );
 };
-
 const HeroWrapper = ({ activeSlide }) => {
   return (
     <div className="flex-1 z-20 xl:max-w-3xl lg:items-start lg:h-full w-full flex flex-col justify-center items-center">
@@ -64,7 +63,6 @@ const HeroWrapper = ({ activeSlide }) => {
     </div>
   );
 };
-
 const CardWrapper = ({
   handleScrollOnClick,
   cardContainerRef,
@@ -92,7 +90,6 @@ const CardWrapper = ({
     </div>
   );
 };
-
 const Card = ({ data, setSlide }) => {
   return (
     <article
@@ -113,5 +110,4 @@ const Card = ({ data, setSlide }) => {
     </article>
   );
 };
-
 export default Slider;
