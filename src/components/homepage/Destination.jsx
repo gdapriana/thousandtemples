@@ -45,7 +45,7 @@ const CardWrapper = ({ destinations }) => {
 const MainCard = ({ destinations }) => {
   return (
     <div
-      className="rounded-3xl p-4 lg:p-8 flex justify-center items-end relative overflow-hidden bg-cover h-72 md:h-auto md:aspect-square md:row-span-4"
+      className="rounded-[40px] p-4 lg:p-[28px] flex justify-center items-end relative overflow-hidden bg-cover h-72 md:h-auto md:aspect-square md:row-span-4"
       style={{
         backgroundImage: `url(https://source.unsplash.com/random/1920x1080/?${destinations[0].slug})`,
       }}
@@ -76,26 +76,28 @@ const MainCard = ({ destinations }) => {
         <div className="flex mt-5 justify-end gap-3 items-center">
           <div className="flex justify-center items-center gap-1">
             <BanknotesIcon className="w-4 text-indigo-400" />
-            <span className="text-sm lg:text-base text-indigo-400">
-              {destinations[0].price !== 0 ? destinations[0].price : "Free"}
+            <span className="text-sm font-sans font-bold lg:text-base text-indigo-400">
+              {destinations[0].price !== 0
+                ? `Rp. ${destinations[0].price},00`
+                : "Free"}
             </span>
           </div>
 
           <div className="sm:flex hidden justify-center items-center gap-1">
             <EyeIcon className="w-4 text-indigo-400" />
-            <span className="text-sm lg:text-base text-indigo-400">
+            <span className="text-sm lg:text-base font-sans font-bold text-indigo-400">
               {destinations[0].viewCount}
             </span>
           </div>
           <div className="sm:flex hidden justify-center items-center gap-1">
             <HandThumbUpIcon className="w-4 text-indigo-400" />
-            <span className="text-sm lg:text-base text-indigo-400">
+            <span className="text-sm lg:text-base text-indigo-400 font-sans font-bold">
               {destinations[0].likeCount}
             </span>
           </div>
           <a
             href=""
-            className="text-white text-sm lg:text-lg bg-indigo-400 font-bold py-2 px-3 rounded-full"
+            className="text-white text-sm lg:text-lg bg-indigo-400 font-bold py-2 px-4 ml-2 rounded-[12px]"
           >
             Explore
           </a>
@@ -107,53 +109,29 @@ const MainCard = ({ destinations }) => {
 };
 const MiniCard = ({ destination }) => {
   return (
-    <div className="flex justify-center gap-4 rounded-xl overflow-hidden border p-2 lg:p-4 items-center">
-      <div className="">
-        <div
-          className="aspect-square w-20 bg-cover rounded-lg"
-          style={{
-            backgroundImage: `url(https://source.unsplash.com/random/1920x1080/?${destination.slug})`,
-          }}
-        ></div>
-      </div>
-      <div className="flex-1 flex justify-center gap-2 items-start flex-col">
-        <div className="flex flex-col w-full">
-          <h1 className="text-base font-bold text-neutral-600">
+    <div
+      style={{
+        backgroundImage: `url('https://source.unsplash.com/random/1920x1080/?${destination.slug}')`,
+      }}
+      className="flex justify-center gap-4 rounded-[20px] lg:rounded-[28px] overflow-hidden items-center bg-cover bg-center"
+    >
+      <div className="h-full flex flex-col justify-center items-center gap-4 w-full bg-neutral-900 lg:p-[20px] p-[12px] bg-opacity-70">
+        <div className="w-full">
+          <h1 className="text-sm lg:text-lg font-bold text-white">
             {destination.title}
           </h1>
-          <p className="cutoff-text cutoff-text-1 text-sm text-neutral-400">
+          <p className="text-xs cutoff-text lg:text-sm cutoff-text-2 text-neutral-400">
             {destination.description}
           </p>
         </div>
-        <div className="flex gap-2 overflow-auto justify-between items-center w-full">
+        <div className="w-full flex justify-between items-center">
+          <span className="text-indigo-400 font-sans text-xs lg:text-base flex gap-1 font-bold">
+            <BanknotesIcon className="w-3" />
+            {destination.price > 0 ? `Rp. ${destination.price},00` : "Free"}
+          </span>
           <a
             href=""
-            className="bg-neutral-300 cutoff-text cutoff-text-1  me-auto py-1 px-2 rounded-full text-white text-sm"
-          >
-            {destination.category}
-          </a>
-          <div className="sm:flex hidden justify-center items-center gap-1">
-            <BanknotesIcon className="w-4 text-indigo-400" />
-            <span className="text-xs lg:text-sm text-indigo-400">
-              {destination.price !== 0 ? destination.price : "Free"}
-            </span>
-          </div>
-
-          <div className="sm:flex hidden justify-center items-center gap-1">
-            <EyeIcon className="w-4 text-indigo-400" />
-            <span className="text-xs lg:text-sm text-indigo-400">
-              {destination.viewCount}
-            </span>
-          </div>
-          <div className="sm:flex hidden justify-center items-center gap-1">
-            <HandThumbUpIcon className="w-4 text-indigo-400" />
-            <span className="text-xs lg:text-sm text-indigo-400">
-              {destination.likeCount}
-            </span>
-          </div>
-          <a
-            href=""
-            className="bg-indigo-400 rounded-full text-white text-sm font-bold py-1 px-2"
+            className="text-sm lg:text-base font-bold text-white bg-indigo-400 py-1 px-2 rounded-[8px]"
           >
             Explore
           </a>
