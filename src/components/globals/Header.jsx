@@ -5,10 +5,15 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 
 const Header = ({ navigations }) => {
   const [showMobileOption, setShowMobileOption] = useState(false);
-  const [yScroll, setYScroll] = useState(0);
+  const [yScroll, setYScroll] = useState(0)
+  let getUrl = window.location.pathname.substring(1)
+  let path = getUrl.charAt(0).toUpperCase() + getUrl.slice(1)
+
+  if (window.location.pathname === "/") path = "Home"
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -17,8 +22,10 @@ const Header = ({ navigations }) => {
   }, []);
 
   return (
-    <header
-      className={`w-full z-[999] ${
+    <motion.header
+      initial={{y: -70}}
+      animate={{y: 0, transition:{ease: "circOut", duration: 1, delay: 1 }}}
+      className={`w-full removeTransition z-[999] ${
         yScroll > 0 ? "bg-white border-b" : ""
       } fixed flex justify-center items-center`}
     >
@@ -49,7 +56,7 @@ const Header = ({ navigations }) => {
                   <li key={idx}>
                     <a
                       href={item.path}
-                      className="text-sm text-neutral-600 lg:text-base hover:font-semibold hover:text-indigo-400"
+                      className={`${path === item.name ? "text-indigo-400 font-bold" : "text-neutral-600"} text-sm lg:text-base hover:font-semibold hover:text-indigo-400`}
                     >
                       {item.name}
                     </a>
@@ -69,6 +76,7 @@ const Header = ({ navigations }) => {
           </div>
           <MagnifyingGlassIcon className="w-5 lg:hidden" />
           <MoonIcon className="w-5" />
+          <a href="" className="text-white bg-indigo-400 py-1 px-3 rounded-full">Login</a>
         </div>
       </nav>
       <nav
@@ -80,7 +88,7 @@ const Header = ({ navigations }) => {
           {navigations.map((item, idx) => {
             return (
               <li key={idx}>
-                <a className="text-sm text-white" href={item.path}>
+                <a className={`text-sm text-white`} href={item.path}>
                   {item.name}
                 </a>
               </li>
@@ -88,7 +96,7 @@ const Header = ({ navigations }) => {
           })}
         </ul>
       </nav>
-    </header>
+    </motion.header>
   );
 };
 

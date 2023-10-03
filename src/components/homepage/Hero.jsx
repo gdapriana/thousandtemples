@@ -5,13 +5,12 @@ import {
 } from "@heroicons/react/24/outline";
 import mesh from "../../assets/images/mesh.png";
 import temple from "../../assets/images/temple.png";
-import { motion, cubicBezier } from "framer-motion"
+import { motion } from "framer-motion"
 
 const metadata = {
   header: `Let's Enjoy Your Desired Trip in Bali With`,
   subHeader:
     '"Man cannot discover new oceans unless he has the courage to lose sight of the shore"',
-  transition: {duration: .6, ease: [0.6, 0.01, -0.05, 0.9]}
 };
 
 const Hero = () => {
@@ -27,7 +26,7 @@ const Hero = () => {
               initial={{opacity: 0, y: -100}}
               animate={{opacity: 1, y: 0, transition:{ease: "circOut", duration: 1 }}}
               id="headerHero"
-              className="text-neutral-600 hero-header-text leading-10 lg:text-4xl my-4 font-bold text-2xl"
+              className="text-neutral-600 hero-header-text removeTransition leading-10 lg:text-4xl my-4 font-bold text-2xl"
             >
               {metadata.header}{" "}
               <span className="text-indigo-400">
@@ -39,7 +38,7 @@ const Hero = () => {
           <motion.article
             initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0, transition:{ease: "circOut", duration: 1, delay: 0.3 }}}
-            className="flex w-full gap-4">
+            className="flex w-full gap-4 removeTransition">
             <Square2StackIcon className="w-8 lg:w-5 text-indigo-400" />
             <p className="text-neutral-500 lg:text-lg max-w-md italic text-sm">
               {metadata.subHeader}

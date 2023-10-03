@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage.jsx";
 import DestinationPage from "./pages/DestinationPage.jsx";
 import ActivityPage from "./pages/ActivityPage.jsx";
 import Header from "./components/globals/Header.jsx";
+import Footer from "./components/globals/Footer.jsx";
 
 // TODO: import data
 import destinations from "./data/destinations.json";
@@ -11,7 +12,6 @@ import activities from "./data/activities.json";
 import activityCategories from "./data/activitycategories.json";
 import destinationCategories from "./data/destinationcategories.json";
 import navigations from "./data/navigations.json";
-import Footer from "./components/globals/Footer.jsx";
 
 const App = () => {
   return (

@@ -18,6 +18,7 @@ const Article = ({ data, categories }) => {
         {/*categories*/}
         <div className="w-full lg:w-1/3">
           <RecommendedTopic categories={categories} />
+          <StaffPick data={data} header={window.location.pathname === "/destinations" ? "Destinations Staff Pick" : "Things to Do Staff Pick"} />
         </div>
         {/*  article*/}
 
@@ -61,6 +62,7 @@ const RecommendedTopic = ({ categories }) => {
     </div>
   );
 };
+
 const ArticleCard = ({ data }) => {
   return (
     <article className="w-full flex flex-col justify-center items-center border-b py-8">
@@ -158,5 +160,29 @@ const Pagination = () => {
     </div>
   );
 };
+
+const StaffPick = ({data, header}) => {
+  return (
+    <div className="w-full p-8 hidden gap-4 lg:flex flex-col justify-center items-center">
+      <h1 className="w-full text-indigo-400 font-bold text-xl">{header}</h1>
+      <div className="w-full flex flex-col justify-center items-ccenter">
+        {
+          data.sort((a, b) => a.viewCount - b.viewCount).slice(0,5).map((item, idx) => {
+            return (
+              <a href={`/destinations/${item.slug}`} className="w-full hover:bg-indigo-400 hover:color-white rounded-lg flex border-b p-4 justify-between items-center">
+                <h1 className="text-neutral-600">{item.title}</h1>
+                <div className="flex justify-center items-center gap-2">
+                  <BookmarkIcon className="w-5 text-neutral-600 cursor-pointer" />
+                  <MinusCircleIcon className="w-5 text-neutral-600 cursor-pointer" />
+                  <EllipsisHorizontalIcon className="w-5 text-neutral-600 cursor-pointer" />
+                </div>
+              </a>
+            )
+          })
+        }
+      </div>
+    </div>
+  )
+}
 
 export default Article;
