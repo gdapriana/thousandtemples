@@ -26,7 +26,7 @@ const Header = ({ navigations }) => {
       initial={{y: -70}}
       animate={{y: 0, transition:{ease: "circOut", duration: 1, delay: 1 }}}
       className={`w-full removeTransition z-[999] ${
-        yScroll > 0 ? "bg-white border-b" : ""
+        yScroll > 0 ? "bg-white dark:bg-neutral-950 border-b dark:border-neutral-800" : ""
       } fixed flex justify-center items-center`}
     >
       <nav className="w-full h-20 z-40 p-4 flex justify-between items-center">
@@ -37,7 +37,7 @@ const Header = ({ navigations }) => {
           >
             {import.meta.env.VITE_APP}
           </a>
-          <div className="border-l px-3">
+          <div className="border-l dark:border-neutral-800 px-3">
             {showMobileOption ? (
               <XMarkIcon
                 className="w-5 md:hidden"
@@ -67,15 +67,15 @@ const Header = ({ navigations }) => {
           </div>
         </div>
         <div className="flex justify-center items-center gap-4">
-          <div className="hidden lg:flex p-1 border rounded-full">
-            <MagnifyingGlassIcon className="w-4 mx-1" />
+          <div className="hidden lg:flex p-1 border rounded-full dark:border-neutral-800">
+            <MagnifyingGlassIcon className="w-4 mx-1 dark:text-neutral-200" />
             <input
               type="text"
-              className="active:outline-none px-2 text-sm w-32 focus:outline-none outline-0"
+              className="active:outline-none bg-transparent px-2 text-sm w-32 focus:outline-none outline-0"
             />
           </div>
-          <MagnifyingGlassIcon className="w-5 lg:hidden" />
-          <MoonIcon className="w-5" />
+          <MagnifyingGlassIcon className="w-5 text-neutral-600 lg:hidden dark:text-neutral-200" />
+          <MoonIcon className="w-5 dark:text-neutral-200" />
           <a href="" className="text-white bg-indigo-400 py-1 px-3 rounded-full">Login</a>
         </div>
       </nav>

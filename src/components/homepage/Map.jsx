@@ -17,7 +17,7 @@ const metadata = {
 
 const Map = ({ destinations }) => {
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full dark:bg-neutral-950 py-20 flex justify-center items-center">
       <div className="w-full flex flex-col md:flex-row-reverse gap-8 max-w-7xl p-8">
         <div className="w-full md:w-1/3 flex flex-col justify-center items-end gap-5">
           <Title

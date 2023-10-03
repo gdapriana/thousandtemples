@@ -16,11 +16,12 @@ const metadata = {
 
 const Destination = ({ destinations }) => {
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center bg-white dark:bg-neutral-950 items-center">
       <div className="w-full gap-8 max-w-7xl flex flex-col justify-center items-center p-12">
         <Title
           title={metadata.title}
           subtitle={metadata.subtitle}
+          titleClass={"dark:text-indigo-400"}
           customClass={"flex flex-col justify-center items-center w-full"}
           subtitleClass={"text-center"}
         />

@@ -11,7 +11,7 @@ const metadata = {
 
 const Activity = ({ activities }) => {
   return (
-    <div className="w-full my-20 flex justify-center items-center">
+    <div className="w-full dark:bg-neutral-950 py-20 flex justify-center items-center">
       <div className="w-full lg:h-[500px] gap-8 max-w-7xl p-8 flex flex-col lg:flex-row">
         <div className="flex lg:w-1/3 flex-col gap-8 justify-center items-start">
           <Title
