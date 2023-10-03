@@ -6,7 +6,8 @@
 ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
 ### 📸 Result Preview
-![image](https://github.com/icequeenwand/thousandtemples/assets/69134731/38850065-eb95-4292-8567-ec63affecf91)
+![image](https://github.com/icequeenwand/thousandtemples/assets/69134731/08af72a7-7ece-4680-9fcf-371b2137945a)
+
 
 
 #### 🌴 Working directory structure 
