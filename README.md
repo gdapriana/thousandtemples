@@ -1,7 +1,7 @@
 
 ## thousandtemples
 
-Your guide to Tour and Travel in every places in Bali and Wathever you want
+Your guide to Tour and Travel in every places in Bali and Wathever you want and what
 #### ⚙ Technology and Tools
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
