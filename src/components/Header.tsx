@@ -114,10 +114,10 @@ function Navtools({ navigations }: { navigations: any }) {
 					<polygon points='400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49' />
 				</svg>
 			</label>
-			<button className='btn text-white btn-primary btn-md'>
+			<Link href={"login"} className='btn text-white btn-primary btn-md'>
 				<ArrowRightOnRectangleIcon className='w-5' />
 				Login
-			</button>
+			</Link>
 
 			<FloatMenu
 				showMenu={showMenu}
@@ -140,7 +140,7 @@ function FloatMenu({
 	return (
 		<div
 			className={`absolute md:hidden ease-in-out duration-1000 top-24 ${
-				showMenu ? "right-4" : "right-[-300px] opacity-0"
+				showMenu ? "right-4" : "right-[-300px] hidden"
 			}`}>
 			<ul className='menu bg-white w-56 rounded-box'>
 				{navigations.map(
