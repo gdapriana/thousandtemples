@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import navigations from "@/data/navigations.json";
+import AuthProvider from "@/providers/authProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,13 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<Header navigations={navigations} />
-				<div className='w-full flex justify-center items-center'>
-					{children}
-				</div>
-				<Footer navigations={navigations} />
+      <AuthProvider>
+          <Header navigations={navigations} />
+          <div className='w-full flex justify-center items-center'>
+            {children}
+          </div>
+          <Footer navigations={navigations} />
+      </AuthProvider>
 			</body>
 		</html>
 	);

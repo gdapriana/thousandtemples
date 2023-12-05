@@ -1,7 +1,15 @@
+import Link from "next/link";
+import { ArrowRightOnRectangleIcon } from "@heroicons/react/24/outline";
+import { FaGoogle, FaGithub } from "react-icons/fa";
+
+
 const Login = () => {
 	return (
 		<div className='absolute w-full h-screen bottom-0 flex justify-center items-center bg-white'>
-			<LoginEmail />
+      <div className="flex justify-center items-center flex-wrap gap-16">
+        <LoginEmail />
+        <LoginCredentials />
+      </div>
 		</div>
 	);
 };
@@ -26,10 +34,24 @@ const LoginEmail = () => {
 				/>
 			</label>
 			<button type='submit' className='btn my-4 text-white btn-primary'>
+        <ArrowRightOnRectangleIcon className='w-5' />
 				Login
 			</button>
 		</form>
 	);
 };
+
+const LoginCredentials = () => {
+  return (
+    <div className="flex justify-center items-center flex-col gap-4">
+      <p className="text-neutral-500">Or Login With</p>
+      <div className="flex justify-center items-center gap-4">
+        <button className="btn btn-primary text-white"><FaGoogle />Google</button>
+        <button className="btn btn-primary text-white"><FaGithub />Github</button>
+      </div>
+      <p className="text-neutral-500">Doesn't have an account yet? <Link className="text-primary" href={"register"}>Register</Link></p>
+    </div>
+  )
+}
 
 export default Login;
