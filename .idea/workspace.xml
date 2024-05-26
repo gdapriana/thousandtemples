@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/vercel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JetClient/state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "npm.dev (3).executor": "Run",
     "npm.dev.executor": "Run",
     "npm.prettier.executor": "Run",
+    "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "Errors",
     "ts.external.directory.path": "/home/gedeapriana/Workspace/thousandtemples/admin/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -74,23 +75,14 @@
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (3)">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/old/thousandtemples-release-1.0.0/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -129,13 +121,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (3)" />
         <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.prettier" />
-        <item itemvalue="npm.dev (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,7 @@
       <workItem from="1716467083186" duration="14111000" />
       <workItem from="1716560437329" duration="6613000" />
       <workItem from="1716698044138" duration="136000" />
-      <workItem from="1716698502751" duration="1978000" />
+      <workItem from="1716698502751" duration="2708000" />
     </task>
     <servers />
   </component>
