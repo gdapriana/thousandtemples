@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <workItem from="1716467083186" duration="14111000" />
       <workItem from="1716560437329" duration="6613000" />
       <workItem from="1716698044138" duration="136000" />
-      <workItem from="1716698502751" duration="2708000" />
+      <workItem from="1716698502751" duration="3335000" />
     </task>
     <servers />
   </component>
