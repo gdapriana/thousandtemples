@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/districts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/staff-pick.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/category.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/staff-pick.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/brand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/brand.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/dark-mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/dark-mode-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/hamburger.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/navigations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/navigations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/activities/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/activities/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/_components/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/provider/theme-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/dropdown-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/separator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/separator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/sheet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/gedeapriana/.config/JetBrains/WebStorm2024.1/jet-client/projects/e145186d/thousandtemples-init-30d8bd29.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2gWymyUwADSQ8ePKQGAUDG9J2hi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.main.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "release-3.0.0",
+    "last_opened_file_path": "/home/gedeapriana/Workspace/thousandtemples/frontend/app/destinations/_components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Run",
+    "npm.dev (2).executor": "Run",
+    "npm.dev (3).executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.prettier.executor": "Run",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "/home/gedeapriana/Workspace/thousandtemples/admin/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/app/destinations/_components" />
+      <recent name="$PROJECT_DIR$/frontend/public/images" />
+      <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/destination" />
+      <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
+      <recent name="$PROJECT_DIR$/admin/src/pages/dashboard" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.prettier">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/old/thousandtemples-release-1.0.0/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prettier" />
+        <item itemvalue="npm.dev (3)" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="" />
+      <created>1715827791211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715827791211</updated>
+      <workItem from="1715827792560" duration="12195000" />
+      <workItem from="1715842257940" duration="42293000" />
+      <workItem from="1715956491612" duration="99794000" />
+      <workItem from="1716220604501" duration="2025000" />
+      <workItem from="1716316260602" duration="2670000" />
+      <workItem from="1716359087431" duration="17818000" />
+      <workItem from="1716436104262" duration="9139000" />
+      <workItem from="1716467083186" duration="14111000" />
+      <workItem from="1716560437329" duration="6613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+</project>
