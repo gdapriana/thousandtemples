@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import {Inter, Urbanist} from "next/font/google";
+import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
-import {NextFont} from "next/dist/compiled/@next/font";
+import { NextFont } from "next/dist/compiled/@next/font";
 import React from "react";
-import {Header} from "@/app/_component/header";
-import {ThemeProvider} from "@/components/provider/theme-provider";
+import { Header } from "@/app/_component/header";
+import { ThemeProvider } from "@/components/provider/theme-provider";
+import {Footer} from "@/app/_component/footer";
 
-const urbanist: NextFont = Urbanist({ subsets: ['latin']})
-const inter: NextFont = Inter({ subsets: ['latin']})
+const urbanist: NextFont = Urbanist({ subsets: ["latin"] });
+const inter: NextFont = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "home | thousandtemples",
@@ -22,25 +23,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
-      >
-        {/* ROOT */}
-        <div className="w-full h-screen grid grid-cols-1 grid-rows-[auto_1fr]">
-          <div>
-            <Header />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {/* ROOT */}
+          <div className="w-full h-screen grid grid-cols-1 grid-rows-[auto_1fr]">
+            <div>
+              <Header />
+            </div>
+            <div className="overflow-auto">
+              <main id="__main-root">{children}</main>
+              <footer id="__footer-root"><Footer /></footer>
+            </div>
           </div>
-          <div className="overflow-auto">
-            <main id="__main-root">{children}</main>
-            <footer id="__footer-root">Footer</footer>
-          </div>
-        </div>
-
-      </ThemeProvider>
-
+        </ThemeProvider>
       </body>
     </html>
   );

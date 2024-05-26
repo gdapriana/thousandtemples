@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
@@ -12,22 +12,20 @@ Icon.Default.mergeOptions({
   shadowUrl: MarkerShadow.src,
 });
 
-import {destinationProps} from "@/lib/types";
-import {LatLngExpression} from "leaflet";
-
+import { destinationProps } from "@/lib/types";
+import { LatLngExpression } from "leaflet";
 
 const metadata = {
   title: "Bali Map's Guide",
   subtitle: "Are you lost? We have a map of the island of Bali",
   map: {
     centerMap: [-8.409518, 115.188919] as LatLngExpression,
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
   },
 };
 
-export const Map = ({ destinations } : {destinations: destinationProps[]}) => {
+export const Map = ({ destinations }: { destinations: destinationProps[] }) => {
   return (
     <main className="w-full mt-24 flex justify-center items-center">
       <div className="w-full p-4 gap-8 max-w-6xl flex flex-col md:flex-row-reverse">
@@ -52,19 +50,15 @@ export const Map = ({ destinations } : {destinations: destinationProps[]}) => {
                         backgroundImage: `url(${destination?.cover})`,
                       }}
                     ></div>
-                    <h1 className="text-base mt-2 mb-1 font-bold m-0 p-0">
-                      {destination?.name}
-                    </h1>
-                    <p className="line-clamp-2">
-                      {destination?.description}
-                    </p>
+                    <h1 className="text-base mt-2 mb-1 font-bold m-0 p-0">{destination?.name}</h1>
+                    <p className="line-clamp-2">{destination?.description}</p>
                   </Popup>
                 </Marker>
-              )
+              );
             })}
           </MapContainer>
         </div>
       </div>
     </main>
-  )
-}
+  );
+};

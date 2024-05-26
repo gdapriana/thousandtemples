@@ -1,5 +1,5 @@
 "use client";
-import { destinationProps } from "@/lib/types";
+import { activityProps, destinationProps } from "@/lib/types";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -7,16 +7,16 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6";
 
-export const Slider = ({ destinations }: { destinations: destinationProps[] }) => {
+export const Slider = ({ activities }: { activities: activityProps[] }) => {
   const [active, setActive] = useState<number>(1);
-  const activeDestinations = destinations.slice(0, 4);
+  const activeActivities = activities.slice(0, 4);
 
   return (
     <main className="w-full h-full p-4">
       <div
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("${activeDestinations[active].cover}")`,
+    url("${activeActivities[active].cover}")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -33,34 +33,34 @@ export const Slider = ({ destinations }: { destinations: destinationProps[] }) =
           </div>
           <div className="md:flex-1 p-4 flex justify-center items-center md:justify-start md:basis-0">
             <div className="flex flex-col justify-center items-center md:items-start gap-2">
-              <h1 className="md:text-3xl text-center lg:text-start text-xl font-bold text-white">
-                {activeDestinations[active]?.name}
+              <h1 className="md:text-3xl text-xl font-bold text-center md:text-start text-white">
+                {activeActivities[active]?.name}
               </h1>
               <p className="text-muted md:w-3/4 dark:text-muted-foreground text-center md:text-start line-clamp-3">
-                {activeDestinations[active]?.description}
+                {activeActivities[active]?.description}
               </p>
               <Button size="lg" className="mt-4 font-bold" asChild>
-                <Link href={`/destinations/${activeDestinations[active]?.slug}`}>Explore Now</Link>
+                <Link href={`/activities/${activeActivities[active]?.slug}`}>Explore Now</Link>
               </Button>
             </div>
           </div>
           <div className="md:flex-1 md:basis-0 rounded-xl p-12">
             <Carousel opts={{ loop: true, align: "start" }}>
               <CarouselContent>
-                {activeDestinations?.map((destination: destinationProps, index: number) => {
+                {activeActivities?.map((activity: activityProps, index: number) => {
                   return (
                     <CarouselItem key={index} onClick={() => setActive(index)} className="basis-1/2">
                       <div className="p-1 cursor-pointer">
                         <div className="border p-1 bg-muted gap-2 flex flex-col justify-start items-stretch overflow-hidden rounded-2xl">
                           <Image
-                            src={destination?.cover || "/images/no-image.png"}
+                            src={activity?.cover || "/images/no-image.png"}
                             alt={"cover"}
                             width={1000}
                             height={1000}
                             className="aspect-[9/10] object-cover object-center rounded-xl"
                           />
                           <h1 className="text-center line-clamp-1 text-sm md:text-base font-bold text-muted-foreground">
-                            {destination?.name}
+                            {activity?.name}
                           </h1>
                         </div>
                       </div>

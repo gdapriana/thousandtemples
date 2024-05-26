@@ -57,17 +57,19 @@
     @apply bg-background text-foreground;
   }
 
-  #__header-root, #__main-root, #__footer-root {
-    @apply w-full flex flex-col justify-start items-center
+  #__header-root,
+  #__main-root,
+  #__footer-root {
+    @apply w-full flex flex-col justify-start items-center;
   }
 }
 
 * {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 *::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
+  display: none; /* Safari and Chrome */
 }
 
 .leaflet-container {
@@ -77,9 +79,5 @@
 
 .blackGradient {
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 0, 0, 0.9205883036808473) 85%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.9205883036808473) 85%);
 }
