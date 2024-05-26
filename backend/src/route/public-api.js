@@ -6,6 +6,10 @@ import {DestinationController} from "../controller/destination-controller.js";
 import {ActivityController} from "../controller/activity-controller.js";
 
 export const publicApi = express.Router();
+publicApi.get('/', (req, res) => {
+    res.status(200).json({msg: 'success'})
+})
+
 publicApi.post('/api/admin/login', AdminController.login);
 
 

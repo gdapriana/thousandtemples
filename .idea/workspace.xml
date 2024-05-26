@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/route/public-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/route/public-api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev (3)" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.prettier" />
@@ -164,7 +164,7 @@
       <workItem from="1716467083186" duration="14111000" />
       <workItem from="1716560437329" duration="6613000" />
       <workItem from="1716698044138" duration="136000" />
-      <workItem from="1716698502751" duration="3335000" />
+      <workItem from="1716698502751" duration="4123000" />
     </task>
     <servers />
   </component>
