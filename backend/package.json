@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon main.js",
-    "start": "node main.js"
+    "start": "node main.js",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.13.0",
