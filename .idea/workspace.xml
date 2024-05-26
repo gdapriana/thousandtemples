@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/pagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +53,7 @@
     "Node.js.main.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "release-3.0.0",
-    "last_opened_file_path": "/home/gedeapriana/Workspace/thousandtemples/frontend/app/destinations/_components",
+    "last_opened_file_path": "/home/gedeapriana/Workspace/thousandtemples/frontend/app/activities/_components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,11 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/app/activities/_components" />
       <recent name="$PROJECT_DIR$/frontend/app/destinations/_components" />
       <recent name="$PROJECT_DIR$/frontend/public/images" />
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/destination" />
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
-      <recent name="$PROJECT_DIR$/admin/src/pages/dashboard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend" />
@@ -78,7 +86,7 @@
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.dev (3)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -131,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (3)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.dev (3)" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.prettier" />
       </list>
@@ -164,7 +172,8 @@
       <workItem from="1716467083186" duration="14111000" />
       <workItem from="1716560437329" duration="6613000" />
       <workItem from="1716698044138" duration="136000" />
-      <workItem from="1716698502751" duration="5288000" />
+      <workItem from="1716698502751" duration="6225000" />
+      <workItem from="1716707510957" duration="796000" />
     </task>
     <servers />
   </component>

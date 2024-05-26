@@ -14,7 +14,7 @@ const others = [
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex justify-center items-center border-t">
+    <footer className="w-full mt-16 flex justify-center items-center border-t">
      <div className="w-full max-w-6xl p-4 gap-8 flex flex-col lg:flex-row lg:items-start">
        <div className="lg:flex-1 lg:basis-0 w-full lg:w-auto">
          <h1 className="text-xl font-bold text-primary">thousandtemples</h1>

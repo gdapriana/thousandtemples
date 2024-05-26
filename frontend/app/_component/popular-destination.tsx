@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Layers2, Map, MapIcon, Pin } from "lucide-react";
 import { cn, iconClass } from "@/lib/utils";
+import {Button} from "@/components/ui/button";
 
 export const PopularDestination = ({ destinations }: { destinations: destinationProps[] }) => {
   return (
@@ -54,6 +55,9 @@ export const PopularDestination = ({ destinations }: { destinations: destination
             );
           })}
         </div>
+        <Button asChild className="m-auto">
+          <Link href='/destinations'>Load more</Link>
+        </Button>
       </div>
     </main>
   );

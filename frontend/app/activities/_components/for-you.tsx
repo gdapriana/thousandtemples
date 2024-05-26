@@ -7,6 +7,7 @@ import moment from "moment";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import {Paginations} from "@/app/activities/_components/pagination";
 
 export const ForYou = ({ activities }: { activities: activityProps[] }) => {
   return (
@@ -59,6 +60,7 @@ export const ForYou = ({ activities }: { activities: activityProps[] }) => {
           );
         })}
       </div>
+      <Paginations />
     </main>
   );
 };

@@ -19,6 +19,9 @@ export const PopularActivitiy = ({ activities }: { activities?: activityProps[] 
             Find your perfect Balinese experience: Whether you're looking for adventure, relaxation, or culture, Bali
             has something to offer everyone.
           </p>
+          <Button asChild className="mt-4">
+            <Link href='/activities'>Load more</Link>
+          </Button>
         </header>
 
         {/* mobile */}
@@ -26,7 +29,7 @@ export const PopularActivitiy = ({ activities }: { activities?: activityProps[] 
           <Accordion type="single" collapsible className="w-full">
             {activities?.slice(0, 3).map((activity: activityProps, index: number) => {
               return (
-                <AccordionItem value={`item-${index + 1}`}>
+                <AccordionItem key={index} value={`item-${index + 1}`}>
                   <AccordionTrigger className="flex gap-2 flex-col items-start  text-primary font-bold">
                     <h1 className="text-start">{activity?.name}</h1>
                   </AccordionTrigger>
