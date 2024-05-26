@@ -5,53 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/districts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/staff-pick.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/category.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/staff-pick.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/brand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/brand.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/dark-mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/dark-mode-toggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/hamburger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/hamburger.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/navigations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/navigations.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/activities/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/activities/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/_components/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/provider/theme-provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/badge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/dropdown-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/dropdown-menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/separator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/separator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/sheet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JetClient/state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +78,7 @@
       <recent name="$PROJECT_DIR$/admin/src/pages/dashboard/_component/category" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prettier">
+  <component name="RunManager" selected="npm.dev (3)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -174,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prettier" />
         <item itemvalue="npm.dev (3)" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.prettier" />
         <item itemvalue="npm.dev (2)" />
       </list>
     </recent_temporary>
@@ -206,6 +163,8 @@
       <workItem from="1716436104262" duration="9139000" />
       <workItem from="1716467083186" duration="14111000" />
       <workItem from="1716560437329" duration="6613000" />
+      <workItem from="1716698044138" duration="136000" />
+      <workItem from="1716698502751" duration="1978000" />
     </task>
     <servers />
   </component>
