@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +167,7 @@
       <workItem from="1716698044138" duration="136000" />
       <workItem from="1716698502751" duration="6225000" />
       <workItem from="1716707510957" duration="7532000" />
-      <workItem from="1716791123606" duration="7252000" />
+      <workItem from="1716791123606" duration="7381000" />
     </task>
     <servers />
   </component>

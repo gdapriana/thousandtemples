@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier -w ."
+    "prettier": "prettier -w .",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
