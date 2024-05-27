@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { cn, grayFont, iconClass } from "@/lib/utils";
-import { QuoteIcon, SearchIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { QuoteIcon } from "lucide-react";
 import {Search} from "@/app/_component/search";
 
 export const Hero = () => {
@@ -11,12 +10,12 @@ export const Hero = () => {
         <div className="p-4 flex justify-start items-end">
           <article className="flex flex-col justify-start gap-4 items-start">
             <h1 className={cn("text-2xl font-bold text-pretty", grayFont)}>
-              Let's Enjoy Your Desired Trip in Bali With <span className="text-primary">thousandtemples</span>
+              Let&apos;s Enjoy Your Desired Trip in Bali With <span className="text-primary">thousandtemples</span>
             </h1>
             <div className="flex justify-start gap-4 items-center">
               <QuoteIcon className={cn("text-muted-foreground", iconClass)} />
               <p className="text-muted-foreground italic text-sm w-2/3 md:w-1/2">
-                "Man cannot discover new oceans unless he has the courage to lose sight of the shore"
+                &apos;Man cannot discover new oceans unless he has the courage to lose sight of the shore&apos;
               </p>
             </div>
           </article>

@@ -16,7 +16,7 @@ export const PopularActivitiy = ({ activities }: { activities?: activityProps[] 
         <header className="flex w-full md:w-1/3 flex-col justify-center items-center md:items-start">
           <h1 className="text-primary font-bold text-xl">Popular Activities</h1>
           <p className="font-medium text-center lg:text-start text-muted-foreground">
-            Find your perfect Balinese experience: Whether you're looking for adventure, relaxation, or culture, Bali
+            Find your perfect Balinese experience: Whether you&apos;re looking for adventure, relaxation, or culture, Bali
             has something to offer everyone.
           </p>
           <Button asChild className="mt-4">
