@@ -1,4 +1,5 @@
-"use client";
+"use client"
+// @ts-ignore
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
@@ -28,6 +29,7 @@ const metadata = {
 };
 
 export const Map = ({ destinations }: { destinations: destinationProps[] }) => {
+
   return (
     <main className="w-full mt-24 flex justify-center items-center">
       <div className="w-full p-4 gap-8 max-w-6xl flex flex-col md:flex-row-reverse">
