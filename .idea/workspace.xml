@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08494ff-a65b-4824-be01-0b0e0960bd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/app/activities/_components/pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/[slug]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/activities/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/destinations/_component/map.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-activitiy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/_component/popular-destination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/activities/_components/for-you.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/destinations/_components/for-you.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +46,30 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.main.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release-3.0.0",
-    "last_opened_file_path": "/home/gedeapriana/Workspace/thousandtemples/frontend/app/activities/_components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Run",
-    "npm.dev (2).executor": "Run",
-    "npm.dev (3).executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.prettier.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "/home/gedeapriana/Workspace/thousandtemples/admin/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;release-3.0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gedeapriana/Workspace/thousandtemples/frontend/app/activities/_components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev (2).executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev (3).executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.prettier.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/gedeapriana/Workspace/thousandtemples/admin/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/app/activities/_components" />
@@ -173,7 +171,8 @@
       <workItem from="1716560437329" duration="6613000" />
       <workItem from="1716698044138" duration="136000" />
       <workItem from="1716698502751" duration="6225000" />
-      <workItem from="1716707510957" duration="796000" />
+      <workItem from="1716707510957" duration="7532000" />
+      <workItem from="1716791123606" duration="2323000" />
     </task>
     <servers />
   </component>
