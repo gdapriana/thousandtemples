@@ -9,6 +9,7 @@ import {Separator} from "@/components/ui/separator";
 import {StaffPick} from "@/app/destinations/_components/staff-pick";
 import {Category} from "@/app/destinations/_components/category";
 import {Map} from "@/app/destinations/_component/map";
+import Link from "next/link";
 
 const getDestination = async (slug: string) => {
   try {
@@ -62,6 +63,10 @@ export default async function DestinationPage({ params }: {params: { slug: strin
             <Separator/>
             <div className="w-full aspect-video">
               <Map destination={destination} />
+              <Button className="ms-auto mt-4">
+                <MapIcon className={cn('', iconClass)} />
+                <Link href={`https://maps.google.com/?q=${destination.latitude}, ${destination.longitude}`}>Go to Google Maps</Link>
+              </Button>
             </div>
           </div>
           <div className="hidden lg:flex gap-8 flex-col justify-start items-stretch">

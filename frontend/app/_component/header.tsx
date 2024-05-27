@@ -22,7 +22,7 @@ export const Header = () => {
         <Brand className={{ text: "text-xl" }} />
         <Dot className="w-8 h-8 text-primary hidden lg:block" />
         <Navigations routes={routes} className="mr-auto hidden lg:flex" />
-        <Search />
+        <Search variant="header" />
         <DarkModeToggle />
         <Hamburger routes={routes} />
       </div>
