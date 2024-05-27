@@ -19,8 +19,8 @@ export const Footer = () => {
         <div className="lg:flex-1 lg:basis-0 w-full lg:w-auto">
           <h1 className="text-xl font-bold text-primary">thousandtemples</h1>
           <p className="text-muted-foreground lg:w-2/3">This headline is short, catchy, and informative. It accurately
-            reflects the content of the website, which is a guide to the best of Bali. It also uses the word 'thousand'
-            to evoke the image of Bali's many temples, which are one of the island's most popular tourist
+            reflects the content of the website, which is a guide to the best of Bali. It also uses the word &apos;thousand&apos;
+            to evoke the image of Bali&apos;s many temples, which are one of the island&apos;s most popular tourist
             attractions.</p>
         </div>
         <div className="flex justify-center items-center lg:gap-8 gap-4 w-full lg:w-auto">
