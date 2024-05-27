@@ -14,6 +14,8 @@ Icon.Default.mergeOptions({
 
 import { destinationProps } from "@/lib/types";
 import { LatLngExpression } from "leaflet";
+import {Button} from "@/components/ui/button";
+import Link from "next/link";
 
 const metadata = {
   title: "Bali Map's Guide",
@@ -32,6 +34,9 @@ export const Map = ({ destinations }: { destinations: destinationProps[] }) => {
         <header className="flex w-full md:w-1/3 flex-col justify-center items-end">
           <h1 className="text-primary font-bold text-xl">{metadata.title}</h1>
           <p className="font-medium text-muted-foreground text-end">{metadata.subtitle}</p>
+          <Button asChild className="mt-4">
+            <Link href='https://www.google.com/maps'>Open Google Maps</Link>
+          </Button>
         </header>
         <div className="w-full md:w-2/3 aspect-video">
           <MapContainer center={metadata.map.centerMap} zoom={9}>

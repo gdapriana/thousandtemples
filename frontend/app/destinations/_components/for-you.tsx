@@ -1,12 +1,13 @@
 import { Header } from "@/app/activities/_components/header";
 import {activityProps, destinationProps} from "@/lib/types";
 import Link from "next/link";
-import {Bookmark, Calendar, CircleMinus, MapPin, Wallet} from "lucide-react";
+import {Bookmark, Calendar, CircleMinus, Layers2, MapPin, Wallet} from "lucide-react";
 import {cn, iconClass} from "@/lib/utils";
 import moment from "moment";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import {Paginations} from "@/app/destinations/_components/pagination";
 
 export const ForYou = ({ destinations }: { destinations: destinationProps[] }) => {
   return (
@@ -39,8 +40,9 @@ export const ForYou = ({ destinations }: { destinations: destinationProps[] }) =
                 />
               </div>
               <div className="flex justify-between gap-2 items-center">
-                <Badge>{destination?.district?.name}</Badge>
-                <p className="text-muted-foreground me-auto">5 minutes read</p>
+                <Button variant="secondary" className="gap-1"><MapPin className={iconClass} />{destination?.district?.name}</Button>
+                <Button variant="secondary" className="gap-1 me-auto"><Layers2 className={iconClass} />{destination?.category?.name}</Button>
+
                 <div className="flex justify-center gap-2 items-center">
                   <p className="flex justify-center items-center text-muted-foreground"><Wallet
                     className={cn('inline-block me-1', iconClass)}/>{destination.price === 0 ? "free entry" : `Rp. ${destination.price}`}
@@ -62,6 +64,7 @@ export const ForYou = ({ destinations }: { destinations: destinationProps[] }) =
           );
         })}
       </div>
+      <Paginations />
     </main>
   );
 };

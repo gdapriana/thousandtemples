@@ -2,6 +2,7 @@ import Image from "next/image";
 import { cn, grayFont, iconClass } from "@/lib/utils";
 import { QuoteIcon, SearchIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {Search} from "@/app/_component/search";
 
 export const Hero = () => {
   return (
@@ -24,17 +25,7 @@ export const Hero = () => {
           <Image width={1000} height={1000} className="w-[350px]" src="/images/temple.png" alt="temple" />
         </div>
         <div className="p-4 flex justify-start items-start">
-          <div className="flex justify-center p-2 items-center gap-2 bg-primary rounded-full">
-            <SearchIcon className={cn("w-6 h-6 text-white")} />
-            <input
-              type="text"
-              className={cn("bg-transparent w-auto outline-0 text-white text-sm")}
-              placeholder="Search anything ..."
-            />
-            <Button className="rounded-full" variant="outline">
-              Search
-            </Button>
-          </div>
+          <Search variant="hero" />
         </div>
       </div>
     </main>
