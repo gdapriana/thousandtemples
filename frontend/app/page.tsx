@@ -25,7 +25,7 @@ export default async function Home() {
       <PopularSearch destinations={destinations} />
       <PopularDestination destinations={destinations} />
       <PopularActivitiy activities={activities} />
-      <Map destinations={destinations} />
+      {/*<Map destinations={destinations} />*/}
     </main>
   );
 }

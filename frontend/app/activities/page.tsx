@@ -2,7 +2,6 @@ import axios from "axios";
 import { Slider } from "@/app/activities/_components/slider";
 import { Districts } from "@/app/activities/_components/districts";
 import { StaffPick } from "@/app/activities/_components/staff-pick";
-import { Header } from "@/app/activities/_components/header";
 import { ForYou } from "@/app/activities/_components/for-you";
 
 const getActivities = async () => {
